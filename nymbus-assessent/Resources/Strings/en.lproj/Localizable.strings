@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  nymbus-assessent
+
+  Created by Erick Pac on 16/06/21.
+  
+*/
+
+"ProjectPrivate" = "Private";
+"ProjectPublic" = "Public";

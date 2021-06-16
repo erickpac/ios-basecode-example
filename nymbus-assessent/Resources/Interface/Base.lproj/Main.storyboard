@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bpc-WC-ODx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Repos View Controller-->
+        <scene sceneID="NHy-zI-2tT">
+            <objects>
+                <viewController storyboardIdentifier="ReposViewController" id="bpc-WC-ODx" customClass="ReposViewController" customModule="nymbus_assessent" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YcS-e8-RSl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" id="0tv-B0-BEK">
+                                <rect key="frame" x="0.0" y="426" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hTu-n9-bqR">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="69m-Mn-YgW"/>
+                        <color key="backgroundColor" name="main-background"/>
+                        <constraints>
+                            <constraint firstItem="69m-Mn-YgW" firstAttribute="trailing" secondItem="hTu-n9-bqR" secondAttribute="trailing" id="DNn-Ez-23N"/>
+                            <constraint firstItem="hTu-n9-bqR" firstAttribute="leading" secondItem="69m-Mn-YgW" secondAttribute="leading" id="Tx1-DR-uXs"/>
+                            <constraint firstItem="69m-Mn-YgW" firstAttribute="bottom" secondItem="hTu-n9-bqR" secondAttribute="bottom" id="oAE-hi-GiW"/>
+                            <constraint firstItem="hTu-n9-bqR" firstAttribute="top" secondItem="69m-Mn-YgW" secondAttribute="top" id="ypt-lQ-XQ0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activiyIndicator" destination="0tv-B0-BEK" id="2Sf-DT-8Tm"/>
+                        <outlet property="tableView" destination="hTu-n9-bqR" id="QO6-lV-sWh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fnh-N4-p0o" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="main-background">
+            <color red="0.96100002527236938" green="0.94099998474121094" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

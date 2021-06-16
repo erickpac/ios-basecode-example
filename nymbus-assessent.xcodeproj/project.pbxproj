@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6222595E2CF55AE72C978AE9 /* Pods_nymbus_assessent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54193577E4B3B031CBFF699 /* Pods_nymbus_assessent.framework */; };
+		A913BB5F267A86F600C9068A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BB5E267A86F600C9068A /* AppDelegate.swift */; };
+		A913BB61267A86F600C9068A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BB60267A86F600C9068A /* SceneDelegate.swift */; };
+		A913BB66267A86F600C9068A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A913BB64267A86F600C9068A /* Main.storyboard */; };
+		A913BB68267A86F700C9068A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A913BB67267A86F700C9068A /* Assets.xcassets */; };
+		A913BB6B267A86F700C9068A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A913BB69267A86F700C9068A /* LaunchScreen.storyboard */; };
+		A913BB76267A86F700C9068A /* nymbus_assessentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BB75267A86F700C9068A /* nymbus_assessentTests.swift */; };
+		A913BB81267A86F700C9068A /* nymbus_assessentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BB80267A86F700C9068A /* nymbus_assessentUITests.swift */; };
+		A913BB99267A899D00C9068A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A913BB98267A899D00C9068A /* Colors.xcassets */; };
+		A913BBA3267A8A3E00C9068A /* ReposViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BB9E267A8A3E00C9068A /* ReposViewController.swift */; };
+		A913BBA4267A8A3E00C9068A /* ReposPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BB9F267A8A3E00C9068A /* ReposPresenter.swift */; };
+		A913BBA5267A8A3E00C9068A /* ReposRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBA0267A8A3E00C9068A /* ReposRouter.swift */; };
+		A913BBA6267A8A3E00C9068A /* ReposProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBA1267A8A3E00C9068A /* ReposProtocol.swift */; };
+		A913BBA7267A8A3E00C9068A /* ReposConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBA2267A8A3E00C9068A /* ReposConfigurator.swift */; };
+		A913BBAB267A8A5900C9068A /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A913BBA9267A8A5900C9068A /* RepoCell.xib */; };
+		A913BBAC267A8A5900C9068A /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBAA267A8A5900C9068A /* RepoCell.swift */; };
+		A913BBC8267A8B1C00C9068A /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBC5267A8B1C00C9068A /* Router.swift */; };
+		A913BBC9267A8B1C00C9068A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBC6267A8B1C00C9068A /* BaseViewController.swift */; };
+		A913BBCA267A8B1C00C9068A /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBC7267A8B1C00C9068A /* Presenter.swift */; };
+		A913BBCD267A8B2400C9068A /* String+Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBCB267A8B2400C9068A /* String+Localizable.swift */; };
+		A913BBCE267A8B2400C9068A /* UIImageView+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBCC267A8B2400C9068A /* UIImageView+Alamofire.swift */; };
+		A913BBD1267A8B2C00C9068A /* NibLodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBCF267A8B2C00C9068A /* NibLodable.swift */; };
+		A913BBD2267A8B2C00C9068A /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBD0267A8B2C00C9068A /* StoryboardLoadable.swift */; };
+		A913BBD4267A8B3400C9068A /* Injections.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBD3267A8B3400C9068A /* Injections.swift */; };
+		A913BBD6267A8B3F00C9068A /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBD5267A8B3F00C9068A /* Storage.swift */; };
+		A913BBDD267A8B9000C9068A /* RepoOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBDB267A8B9000C9068A /* RepoOwner.swift */; };
+		A913BBDE267A8B9000C9068A /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBDC267A8B9000C9068A /* Repo.swift */; };
+		A913BBE0267A8B9700C9068A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBDF267A8B9700C9068A /* APIManager.swift */; };
+		A913BBE2267A8B9D00C9068A /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913BBE1267A8B9D00C9068A /* APIConstants.swift */; };
+		A94FBC63267A8EB5008914E0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A94FBC65267A8EB5008914E0 /* Localizable.strings */; };
+		AD43199C89FF06CB79138AD8 /* Pods_nymbus_assessent_nymbus_assessentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79BE71F70DF4619A4A24FE6 /* Pods_nymbus_assessent_nymbus_assessentUITests.framework */; };
+		BAB25385CC7774830B2BEEAB /* Pods_nymbus_assessentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D741C424E547D2C9E50034D /* Pods_nymbus_assessentTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A913BB72267A86F700C9068A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A913BB53267A86F600C9068A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A913BB5A267A86F600C9068A;
+			remoteInfo = "nymbus-assessent";
+		};
+		A913BB7D267A86F700C9068A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A913BB53267A86F600C9068A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A913BB5A267A86F600C9068A;
+			remoteInfo = "nymbus-assessent";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D741C424E547D2C9E50034D /* Pods_nymbus_assessentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nymbus_assessentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6171A07D358047015AE84167 /* Pods-nymbus-assessent-nymbus-assessentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nymbus-assessent-nymbus-assessentUITests.debug.xcconfig"; path = "Target Support Files/Pods-nymbus-assessent-nymbus-assessentUITests/Pods-nymbus-assessent-nymbus-assessentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A913BB5B267A86F600C9068A /* nymbus-assessent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nymbus-assessent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A913BB5E267A86F600C9068A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A913BB60267A86F600C9068A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A913BB65267A86F600C9068A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A913BB67267A86F700C9068A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A913BB6A267A86F700C9068A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A913BB6C267A86F700C9068A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A913BB71267A86F700C9068A /* nymbus-assessentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nymbus-assessentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A913BB75267A86F700C9068A /* nymbus_assessentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nymbus_assessentTests.swift; sourceTree = "<group>"; };
+		A913BB77267A86F700C9068A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A913BB7C267A86F700C9068A /* nymbus-assessentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nymbus-assessentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A913BB80267A86F700C9068A /* nymbus_assessentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nymbus_assessentUITests.swift; sourceTree = "<group>"; };
+		A913BB82267A86F700C9068A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A913BB98267A899D00C9068A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A913BB9E267A8A3E00C9068A /* ReposViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposViewController.swift; sourceTree = "<group>"; };
+		A913BB9F267A8A3E00C9068A /* ReposPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposPresenter.swift; sourceTree = "<group>"; };
+		A913BBA0267A8A3E00C9068A /* ReposRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposRouter.swift; sourceTree = "<group>"; };
+		A913BBA1267A8A3E00C9068A /* ReposProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposProtocol.swift; sourceTree = "<group>"; };
+		A913BBA2267A8A3E00C9068A /* ReposConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReposConfigurator.swift; sourceTree = "<group>"; };
+		A913BBA9267A8A5900C9068A /* RepoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepoCell.xib; sourceTree = "<group>"; };
+		A913BBAA267A8A5900C9068A /* RepoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		A913BBC5267A8B1C00C9068A /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A913BBC6267A8B1C00C9068A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A913BBC7267A8B1C00C9068A /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A913BBCB267A8B2400C9068A /* String+Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Localizable.swift"; sourceTree = "<group>"; };
+		A913BBCC267A8B2400C9068A /* UIImageView+Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Alamofire.swift"; sourceTree = "<group>"; };
+		A913BBCF267A8B2C00C9068A /* NibLodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLodable.swift; sourceTree = "<group>"; };
+		A913BBD0267A8B2C00C9068A /* StoryboardLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
+		A913BBD3267A8B3400C9068A /* Injections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injections.swift; sourceTree = "<group>"; };
+		A913BBD5267A8B3F00C9068A /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		A913BBDB267A8B9000C9068A /* RepoOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoOwner.swift; sourceTree = "<group>"; };
+		A913BBDC267A8B9000C9068A /* Repo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		A913BBDF267A8B9700C9068A /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A913BBE1267A8B9D00C9068A /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		A94FBC5F267A8E85008914E0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		A94FBC60267A8E85008914E0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		A94FBC64267A8EB5008914E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A94FBC66267A8EB8008914E0 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B54193577E4B3B031CBFF699 /* Pods_nymbus_assessent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nymbus_assessent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79BE71F70DF4619A4A24FE6 /* Pods_nymbus_assessent_nymbus_assessentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nymbus_assessent_nymbus_assessentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F4E273F13D39B64D8F9060 /* Pods-nymbus-assessent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nymbus-assessent.release.xcconfig"; path = "Target Support Files/Pods-nymbus-assessent/Pods-nymbus-assessent.release.xcconfig"; sourceTree = "<group>"; };
+		DAFE35432795D37BE9A974EF /* Pods-nymbus-assessent-nymbus-assessentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nymbus-assessent-nymbus-assessentUITests.release.xcconfig"; path = "Target Support Files/Pods-nymbus-assessent-nymbus-assessentUITests/Pods-nymbus-assessent-nymbus-assessentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1D4A5DC09680952559E4542 /* Pods-nymbus-assessent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nymbus-assessent.debug.xcconfig"; path = "Target Support Files/Pods-nymbus-assessent/Pods-nymbus-assessent.debug.xcconfig"; sourceTree = "<group>"; };
+		E3FAFE3256E109B4291D0584 /* Pods-nymbus-assessentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nymbus-assessentTests.debug.xcconfig"; path = "Target Support Files/Pods-nymbus-assessentTests/Pods-nymbus-assessentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE464DFCFE3EAC6DEAACCC1B /* Pods-nymbus-assessentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nymbus-assessentTests.release.xcconfig"; path = "Target Support Files/Pods-nymbus-assessentTests/Pods-nymbus-assessentTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A913BB58267A86F600C9068A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6222595E2CF55AE72C978AE9 /* Pods_nymbus_assessent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BB6E267A86F700C9068A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAB25385CC7774830B2BEEAB /* Pods_nymbus_assessentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BB79267A86F700C9068A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD43199C89FF06CB79138AD8 /* Pods_nymbus_assessent_nymbus_assessentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A87ECE79AC5CB1FBDBFF5E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B54193577E4B3B031CBFF699 /* Pods_nymbus_assessent.framework */,
+				B79BE71F70DF4619A4A24FE6 /* Pods_nymbus_assessent_nymbus_assessentUITests.framework */,
+				4D741C424E547D2C9E50034D /* Pods_nymbus_assessentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A913BB52267A86F600C9068A = {
+			isa = PBXGroup;
+			children = (
+				A913BB5D267A86F600C9068A /* nymbus-assessent */,
+				A913BB74267A86F700C9068A /* nymbus-assessentTests */,
+				A913BB7F267A86F700C9068A /* nymbus-assessentUITests */,
+				A913BB5C267A86F600C9068A /* Products */,
+				E58CAF77691F52649E38DDAC /* Pods */,
+				A87ECE79AC5CB1FBDBFF5E4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A913BB5C267A86F600C9068A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB5B267A86F600C9068A /* nymbus-assessent.app */,
+				A913BB71267A86F700C9068A /* nymbus-assessentTests.xctest */,
+				A913BB7C267A86F700C9068A /* nymbus-assessentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A913BB5D267A86F600C9068A /* nymbus-assessent */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB8E267A88FE00C9068A /* Resources */,
+				A913BB8F267A890600C9068A /* Source */,
+				A913BB90267A891000C9068A /* Supporting FIles */,
+			);
+			path = "nymbus-assessent";
+			sourceTree = "<group>";
+		};
+		A913BB74267A86F700C9068A /* nymbus-assessentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB75267A86F700C9068A /* nymbus_assessentTests.swift */,
+				A913BB77267A86F700C9068A /* Info.plist */,
+			);
+			path = "nymbus-assessentTests";
+			sourceTree = "<group>";
+		};
+		A913BB7F267A86F700C9068A /* nymbus-assessentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB80267A86F700C9068A /* nymbus_assessentUITests.swift */,
+				A913BB82267A86F700C9068A /* Info.plist */,
+			);
+			path = "nymbus-assessentUITests";
+			sourceTree = "<group>";
+		};
+		A913BB8E267A88FE00C9068A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB95267A897600C9068A /* Assets */,
+				A913BB94267A896E00C9068A /* Fonts */,
+				A913BB93267A896500C9068A /* Interface */,
+				A913BB92267A895600C9068A /* Strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A913BB8F267A890600C9068A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB9C267A89E900C9068A /* Main Delegate Files */,
+				A913BB9B267A89E300C9068A /* Commons */,
+				A913BB9A267A89DB00C9068A /* Scenes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		A913BB90267A891000C9068A /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB6C267A86F700C9068A /* Info.plist */,
+			);
+			path = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		A913BB92267A895600C9068A /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				A94FBC65267A8EB5008914E0 /* Localizable.strings */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		A913BB93267A896500C9068A /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB69267A86F700C9068A /* LaunchScreen.storyboard */,
+				A913BB64267A86F600C9068A /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A913BB94267A896E00C9068A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A913BB95267A897600C9068A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB67267A86F700C9068A /* Assets.xcassets */,
+				A913BB98267A899D00C9068A /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A913BB9A267A89DB00C9068A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB9D267A8A2000C9068A /* Repos */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A913BB9B267A89E300C9068A /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBC4267A8B0F00C9068A /* Base */,
+				A913BBC3267A8B0800C9068A /* Extensions */,
+				A913BBC2267A8B0200C9068A /* Helpers */,
+				A913BBC1267A8AF800C9068A /* Injectios */,
+				A913BBC0267A8AF300C9068A /* Keys */,
+				A913BBBF267A8AEA00C9068A /* Network */,
+				A913BBBE267A8AE500C9068A /* Session */,
+				A913BBBD267A8ADE00C9068A /* Storage */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		A913BB9C267A89E900C9068A /* Main Delegate Files */ = {
+			isa = PBXGroup;
+			children = (
+				A913BB5E267A86F600C9068A /* AppDelegate.swift */,
+				A913BB60267A86F600C9068A /* SceneDelegate.swift */,
+			);
+			path = "Main Delegate Files";
+			sourceTree = "<group>";
+		};
+		A913BB9D267A8A2000C9068A /* Repos */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBA2267A8A3E00C9068A /* ReposConfigurator.swift */,
+				A913BB9F267A8A3E00C9068A /* ReposPresenter.swift */,
+				A913BBA1267A8A3E00C9068A /* ReposProtocol.swift */,
+				A913BBA0267A8A3E00C9068A /* ReposRouter.swift */,
+				A913BB9E267A8A3E00C9068A /* ReposViewController.swift */,
+				A913BBA8267A8A4B00C9068A /* Cells */,
+			);
+			path = Repos;
+			sourceTree = "<group>";
+		};
+		A913BBA8267A8A4B00C9068A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBAA267A8A5900C9068A /* RepoCell.swift */,
+				A913BBA9267A8A5900C9068A /* RepoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A913BBBD267A8ADE00C9068A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBD5267A8B3F00C9068A /* Storage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		A913BBBE267A8AE500C9068A /* Session */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		A913BBBF267A8AEA00C9068A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBD7267A8B4B00C9068A /* APIConstants */,
+				A913BBD8267A8B5800C9068A /* APIManager */,
+				A913BBD9267A8B7700C9068A /* Models */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A913BBC0267A8AF300C9068A /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
+		A913BBC1267A8AF800C9068A /* Injectios */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBD3267A8B3400C9068A /* Injections.swift */,
+			);
+			path = Injectios;
+			sourceTree = "<group>";
+		};
+		A913BBC2267A8B0200C9068A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBCF267A8B2C00C9068A /* NibLodable.swift */,
+				A913BBD0267A8B2C00C9068A /* StoryboardLoadable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A913BBC3267A8B0800C9068A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBCB267A8B2400C9068A /* String+Localizable.swift */,
+				A913BBCC267A8B2400C9068A /* UIImageView+Alamofire.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A913BBC4267A8B0F00C9068A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBC6267A8B1C00C9068A /* BaseViewController.swift */,
+				A913BBC7267A8B1C00C9068A /* Presenter.swift */,
+				A913BBC5267A8B1C00C9068A /* Router.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A913BBD7267A8B4B00C9068A /* APIConstants */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBE1267A8B9D00C9068A /* APIConstants.swift */,
+			);
+			path = APIConstants;
+			sourceTree = "<group>";
+		};
+		A913BBD8267A8B5800C9068A /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBDF267A8B9700C9068A /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		A913BBD9267A8B7700C9068A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBDA267A8B8500C9068A /* Repo */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A913BBDA267A8B8500C9068A /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				A913BBDC267A8B9000C9068A /* Repo.swift */,
+				A913BBDB267A8B9000C9068A /* RepoOwner.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		E58CAF77691F52649E38DDAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1D4A5DC09680952559E4542 /* Pods-nymbus-assessent.debug.xcconfig */,
+				D2F4E273F13D39B64D8F9060 /* Pods-nymbus-assessent.release.xcconfig */,
+				6171A07D358047015AE84167 /* Pods-nymbus-assessent-nymbus-assessentUITests.debug.xcconfig */,
+				DAFE35432795D37BE9A974EF /* Pods-nymbus-assessent-nymbus-assessentUITests.release.xcconfig */,
+				E3FAFE3256E109B4291D0584 /* Pods-nymbus-assessentTests.debug.xcconfig */,
+				EE464DFCFE3EAC6DEAACCC1B /* Pods-nymbus-assessentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A913BB5A267A86F600C9068A /* nymbus-assessent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A913BB85267A86F700C9068A /* Build configuration list for PBXNativeTarget "nymbus-assessent" */;
+			buildPhases = (
+				2B9DAE902CC0CBA5E2138FD4 /* [CP] Check Pods Manifest.lock */,
+				A913BB57267A86F600C9068A /* Sources */,
+				A913BB58267A86F600C9068A /* Frameworks */,
+				A913BB59267A86F600C9068A /* Resources */,
+				ABE42F38A9DD9548FF6B2AAD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nymbus-assessent";
+			productName = "nymbus-assessent";
+			productReference = A913BB5B267A86F600C9068A /* nymbus-assessent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A913BB70267A86F700C9068A /* nymbus-assessentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A913BB88267A86F700C9068A /* Build configuration list for PBXNativeTarget "nymbus-assessentTests" */;
+			buildPhases = (
+				D11017273DB2221C5A80CF2E /* [CP] Check Pods Manifest.lock */,
+				A913BB6D267A86F700C9068A /* Sources */,
+				A913BB6E267A86F700C9068A /* Frameworks */,
+				A913BB6F267A86F700C9068A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A913BB73267A86F700C9068A /* PBXTargetDependency */,
+			);
+			name = "nymbus-assessentTests";
+			productName = "nymbus-assessentTests";
+			productReference = A913BB71267A86F700C9068A /* nymbus-assessentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A913BB7B267A86F700C9068A /* nymbus-assessentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A913BB8B267A86F700C9068A /* Build configuration list for PBXNativeTarget "nymbus-assessentUITests" */;
+			buildPhases = (
+				6059149407EDBE151DA3C0B1 /* [CP] Check Pods Manifest.lock */,
+				A913BB78267A86F700C9068A /* Sources */,
+				A913BB79267A86F700C9068A /* Frameworks */,
+				A913BB7A267A86F700C9068A /* Resources */,
+				BDA3E66612517701D14F374A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A913BB7E267A86F700C9068A /* PBXTargetDependency */,
+			);
+			name = "nymbus-assessentUITests";
+			productName = "nymbus-assessentUITests";
+			productReference = A913BB7C267A86F700C9068A /* nymbus-assessentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A913BB53267A86F600C9068A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A913BB5A267A86F600C9068A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A913BB70267A86F700C9068A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A913BB5A267A86F600C9068A;
+					};
+					A913BB7B267A86F700C9068A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A913BB5A267A86F600C9068A;
+					};
+				};
+			};
+			buildConfigurationList = A913BB56267A86F600C9068A /* Build configuration list for PBXProject "nymbus-assessent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"es-419",
+			);
+			mainGroup = A913BB52267A86F600C9068A;
+			productRefGroup = A913BB5C267A86F600C9068A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A913BB5A267A86F600C9068A /* nymbus-assessent */,
+				A913BB70267A86F700C9068A /* nymbus-assessentTests */,
+				A913BB7B267A86F700C9068A /* nymbus-assessentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A913BB59267A86F600C9068A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913BB99267A899D00C9068A /* Colors.xcassets in Resources */,
+				A94FBC63267A8EB5008914E0 /* Localizable.strings in Resources */,
+				A913BBAB267A8A5900C9068A /* RepoCell.xib in Resources */,
+				A913BB6B267A86F700C9068A /* LaunchScreen.storyboard in Resources */,
+				A913BB68267A86F700C9068A /* Assets.xcassets in Resources */,
+				A913BB66267A86F600C9068A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BB6F267A86F700C9068A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BB7A267A86F700C9068A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B9DAE902CC0CBA5E2138FD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nymbus-assessent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6059149407EDBE151DA3C0B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nymbus-assessent-nymbus-assessentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABE42F38A9DD9548FF6B2AAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nymbus-assessent/Pods-nymbus-assessent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nymbus-assessent/Pods-nymbus-assessent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nymbus-assessent/Pods-nymbus-assessent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA3E66612517701D14F374A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nymbus-assessent-nymbus-assessentUITests/Pods-nymbus-assessent-nymbus-assessentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nymbus-assessent-nymbus-assessentUITests/Pods-nymbus-assessent-nymbus-assessentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nymbus-assessent-nymbus-assessentUITests/Pods-nymbus-assessent-nymbus-assessentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11017273DB2221C5A80CF2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nymbus-assessentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A913BB57267A86F600C9068A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913BBCE267A8B2400C9068A /* UIImageView+Alamofire.swift in Sources */,
+				A913BBD4267A8B3400C9068A /* Injections.swift in Sources */,
+				A913BBD2267A8B2C00C9068A /* StoryboardLoadable.swift in Sources */,
+				A913BBA5267A8A3E00C9068A /* ReposRouter.swift in Sources */,
+				A913BBCA267A8B1C00C9068A /* Presenter.swift in Sources */,
+				A913BBA3267A8A3E00C9068A /* ReposViewController.swift in Sources */,
+				A913BBA4267A8A3E00C9068A /* ReposPresenter.swift in Sources */,
+				A913BB5F267A86F600C9068A /* AppDelegate.swift in Sources */,
+				A913BBE2267A8B9D00C9068A /* APIConstants.swift in Sources */,
+				A913BBC8267A8B1C00C9068A /* Router.swift in Sources */,
+				A913BBDD267A8B9000C9068A /* RepoOwner.swift in Sources */,
+				A913BBC9267A8B1C00C9068A /* BaseViewController.swift in Sources */,
+				A913BBAC267A8A5900C9068A /* RepoCell.swift in Sources */,
+				A913BBE0267A8B9700C9068A /* APIManager.swift in Sources */,
+				A913BBD1267A8B2C00C9068A /* NibLodable.swift in Sources */,
+				A913BB61267A86F600C9068A /* SceneDelegate.swift in Sources */,
+				A913BBA7267A8A3E00C9068A /* ReposConfigurator.swift in Sources */,
+				A913BBA6267A8A3E00C9068A /* ReposProtocol.swift in Sources */,
+				A913BBD6267A8B3F00C9068A /* Storage.swift in Sources */,
+				A913BBCD267A8B2400C9068A /* String+Localizable.swift in Sources */,
+				A913BBDE267A8B9000C9068A /* Repo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BB6D267A86F700C9068A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913BB76267A86F700C9068A /* nymbus_assessentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A913BB78267A86F700C9068A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A913BB81267A86F700C9068A /* nymbus_assessentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A913BB73267A86F700C9068A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A913BB5A267A86F600C9068A /* nymbus-assessent */;
+			targetProxy = A913BB72267A86F700C9068A /* PBXContainerItemProxy */;
+		};
+		A913BB7E267A86F700C9068A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A913BB5A267A86F600C9068A /* nymbus-assessent */;
+			targetProxy = A913BB7D267A86F700C9068A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A913BB64267A86F600C9068A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A913BB65267A86F600C9068A /* Base */,
+				A94FBC60267A8E85008914E0 /* es-419 */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A913BB69267A86F700C9068A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A913BB6A267A86F700C9068A /* Base */,
+				A94FBC5F267A8E85008914E0 /* es-419 */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A94FBC65267A8EB5008914E0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A94FBC64267A8EB5008914E0 /* en */,
+				A94FBC66267A8EB8008914E0 /* es-419 */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A913BB83267A86F700C9068A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A913BB84267A86F700C9068A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A913BB86267A86F700C9068A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D4A5DC09680952559E4542 /* Pods-nymbus-assessent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59HDTLRB2N;
+				INFOPLIST_FILE = "$(SRCROOT)/nymbus-assessent/Supporting FIles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognits.nymbus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A913BB87267A86F700C9068A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F4E273F13D39B64D8F9060 /* Pods-nymbus-assessent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59HDTLRB2N;
+				INFOPLIST_FILE = "$(SRCROOT)/nymbus-assessent/Supporting FIles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognits.nymbus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A913BB89267A86F700C9068A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3FAFE3256E109B4291D0584 /* Pods-nymbus-assessentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59HDTLRB2N;
+				INFOPLIST_FILE = "nymbus-assessentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognits.nymbus.nymbus-assessentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nymbus-assessent.app/nymbus-assessent";
+			};
+			name = Debug;
+		};
+		A913BB8A267A86F700C9068A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE464DFCFE3EAC6DEAACCC1B /* Pods-nymbus-assessentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59HDTLRB2N;
+				INFOPLIST_FILE = "nymbus-assessentTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognits.nymbus.nymbus-assessentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nymbus-assessent.app/nymbus-assessent";
+			};
+			name = Release;
+		};
+		A913BB8C267A86F700C9068A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6171A07D358047015AE84167 /* Pods-nymbus-assessent-nymbus-assessentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59HDTLRB2N;
+				INFOPLIST_FILE = "nymbus-assessentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognits.nymbus.nymbus-assessentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nymbus-assessent";
+			};
+			name = Debug;
+		};
+		A913BB8D267A86F700C9068A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFE35432795D37BE9A974EF /* Pods-nymbus-assessent-nymbus-assessentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59HDTLRB2N;
+				INFOPLIST_FILE = "nymbus-assessentUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cognits.nymbus.nymbus-assessentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "nymbus-assessent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A913BB56267A86F600C9068A /* Build configuration list for PBXProject "nymbus-assessent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A913BB83267A86F700C9068A /* Debug */,
+				A913BB84267A86F700C9068A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A913BB85267A86F700C9068A /* Build configuration list for PBXNativeTarget "nymbus-assessent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A913BB86267A86F700C9068A /* Debug */,
+				A913BB87267A86F700C9068A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A913BB88267A86F700C9068A /* Build configuration list for PBXNativeTarget "nymbus-assessentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A913BB89267A86F700C9068A /* Debug */,
+				A913BB8A267A86F700C9068A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A913BB8B267A86F700C9068A /* Build configuration list for PBXNativeTarget "nymbus-assessentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A913BB8C267A86F700C9068A /* Debug */,
+				A913BB8D267A86F700C9068A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A913BB53267A86F600C9068A /* Project object */;
+}
